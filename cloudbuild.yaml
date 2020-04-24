@@ -2,3 +2,6 @@ steps:
 # Instalasi dependencies
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
+# Menjalankan pengujian
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'test']
